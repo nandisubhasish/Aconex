@@ -1,0 +1,21 @@
+<suite name="SuiteName" parallel="tests">
+	<test name="Dummy TestA" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.testcases.DummyTestA" />
+		</classes>
+	</test>
+	
+	<test name="Dummy TestB" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.testcases.DummyTestB" />
+		</classes>
+	</test>
+	
+	
+	<test name="Dummy TestC" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.testcases.DummyTestC" />
+		</classes>
+	</test>
+</suite>
+
